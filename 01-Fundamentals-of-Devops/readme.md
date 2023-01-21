@@ -20,4 +20,9 @@
 
 ---
 
+## Traditional Approach
+
+![Traditional](./ScreenShot.png)
+
+
 
