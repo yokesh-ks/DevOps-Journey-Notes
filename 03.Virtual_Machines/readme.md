@@ -19,12 +19,21 @@ Physical servers are actual, physical computers that are dedicated to running on
 
 We bought five physical servers with 100GB RAM and 100 cores each to host our application. 
 
-The system administrator deployed the application on the server, utilizing only 4GB RAM and 4 cores.
+![Physical Server](./Screenshot_physical_server_testers.png)
 
-During testing, different teams were assigned separate servers, but the application only used 4GB RAM and 4 cores.
+The system administrator deployed the application on the server, utilizing only 4GB RAM and 4 cores. During testing, different teams were assigned separate servers, but the application only used 4GB RAM and 4 cores. This resulted in 90% of the resources remaining unused.
 
-This resulted in 90% of the resources remaining unused.
+DevOps is responsible for ensuring efficient resource utilization.
 
+Here comes the conpects of Vitualization
+
+## Virtual Server
+
+Virtual servers, on the other hand, are software-based emulations of physical servers. They are created and run on a physical host using a hypervisor, which allows multiple virtual servers to share the host's resources. Virtual servers have their own virtualized hardware and run their own operating systems, but they are not physically separate from the host.
+
+### Hypervisor 
+
+A hypervisor is a piece of software that allows multiple operating systems to run on a single physical host. It creates and manages virtual machines (VMs), which are software-based emulations of physical computers. The hypervisor sits between the physical host's hardware and the guest operating systems, and it allows the VMs to share the host's resources, such as CPU, memory, and storage. 
 
 
 
