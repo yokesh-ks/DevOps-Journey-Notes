@@ -11,6 +11,21 @@ A server is a computer or system that provides a service to other computers or d
 Servers can be physical computers or virtual machines that run on a host computer. Some servers can also be run on cloud computing platforms, such as Amazon Web Services or Microsoft Azure.
 
 ---
+## Physical Server 
+
+Physical servers are actual, physical computers that are dedicated to running one or more server applications. They have their own processors, memory, storage, and network interfaces. They can be housed in a data center or on-premises, and they are typically managed by an IT team.
+
+![Physical Server](./Screenshot_physical_server.png)
+
+We bought five physical servers with 100GB RAM and 100 cores each to host our application. 
+
+The system administrator deployed the application on the server, utilizing only 4GB RAM and 4 cores.
+
+During testing, different teams were assigned separate servers, but the application only used 4GB RAM and 4 cores.
+
+This resulted in 90% of the resources remaining unused.
+
+
 
 
 
