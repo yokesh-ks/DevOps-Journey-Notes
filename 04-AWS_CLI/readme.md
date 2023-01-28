@@ -1,0 +1,9 @@
+
+
+AWS CLI Download: https://aws.amazon.com/cli/
+
+AWS CLI Command Reference: https://docs.aws.amazon.com/cli/lates...
+
+AWS Cloud Formation Templates Examples: https://github.com/awslabs/aws-cloudf...
+
+AWS Python Boto3 Example: https://gist.github.com/mda590/679aba...
