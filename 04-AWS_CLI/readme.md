@@ -68,4 +68,20 @@ aws ec2 authorize-security-group-ingress \
 
 to Get Ip address - https://checkip.amazonaws.com/
 
+### 3. Launching, listing, and terminating Amazon EC2 instances
 
+https://docs.aws.amazon.com/cli/latest/userguide/cli-services-ec2-instances.html
+
+```
+aws ec2 run-instances --image-id ami-xxxxxxxx --count 1 --instance-type t2.micro --key-name MyKeyPair --security-group-ids sg-903004f8 --subnet-id subnet-6e7f829e
+```
+
+
+ami id - ami-01a4f99c4ac11b03c
+keyName - Mytest111
+group id - sg-0805ab2f834db79be
+
+subnetid - subnet-09b64cc0a3033c97c
+
+
+aws ec2 run-instances --image-id ami-01a4f99c4ac11b03c --count 1 --instance-type t2.micro --key-name Mytest111 --security-group-ids sg-0805ab2f834db79be --subnet-id subnet-09b64cc0a3033c97c
